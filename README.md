@@ -3,13 +3,8 @@
 Config-driven object detection pipeline: **record video -> frames -> pretrained-model pre-labels -> human review -> split by session -> train on Colab GPU -> live webcam test -> ONNX + CPU benchmark.**
 
 Detect any objects: edit `configs/classes.yaml` (text prompts for YOLO-World, or COCO names for a standard YOLO teacher).
+sses chosen"
 
-## Where am I?
-```bash
-python scripts/steps.py                       # shows current step + checklist
-python scripts/steps.py --done 1 --note "classes chosen"
-python scripts/steps.py --start 2
-```
 
 ## Steps (details in STEPS.yaml)
 | # | Step | Where |
