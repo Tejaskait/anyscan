@@ -1,0 +1,7 @@
+classes:
+  - name: bottle
+    prompts: [bottle, water bottle]
+    coco: [bottle]
+  - name: cup
+    prompts: [cup, mug]
+    coco: [cup]

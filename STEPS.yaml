@@ -1,0 +1,62 @@
+project: AnyScan
+steps:
+- id: 0
+  title: Plan project and create scaffold
+  where: chat
+  status: done
+  note: scaffold + context docs created 2026-10-31
+- id: 1
+  title: Choose objects; edit configs/classes.yaml
+  where: laptop
+  status: done
+  note: classes chosen
+- id: 2
+  title: Record 10-15 clips in different sessions
+  where: phone/laptop
+  status: in_progress
+  note: 'name: session01_bright_desk.mp4 -> data/videos/'
+- id: 3
+  title: Extract frames + de-duplicate
+  where: laptop
+  status: todo
+  note: scripts/extract_frames.py
+- id: 4
+  title: Pre-label with pretrained teacher model
+  where: laptop CPU or Colab
+  status: todo
+  note: scripts/prelabel.py --backend world|coco
+- id: 5
+  title: Review and correct labels (CVAT / Label Studio)
+  where: laptop
+  status: done
+  note: 44 frames reviewed manually
+- id: 6
+  title: Split by session, build dataset, zip, upload to Drive
+  where: laptop
+  status: in_progress
+  note: scripts/make_split.py
+- id: 7
+  title: Train custom YOLO on Colab GPU
+  where: Colab T4
+  status: todo
+  note: notebooks/colab_train.ipynb -> best.pt
+- id: 8
+  title: Evaluate on verified val sessions + live webcam test
+  where: laptop
+  status: todo
+  note: scripts/infer_live.py --source 0
+- id: 9
+  title: Export ONNX and benchmark FPS on laptop CPU
+  where: laptop
+  status: todo
+  note: export_onnx.py, benchmark.py
+- id: 10
+  title: 'Round 2: error analysis, new data, retrain, compare'
+  where: both
+  status: todo
+  note: 'pre-label with own model: --backend own'
+- id: 11
+  title: 'Package: README, results table, 30-60s demo video'
+  where: laptop
+  status: todo
+  note: docs/results.md, GitHub repo

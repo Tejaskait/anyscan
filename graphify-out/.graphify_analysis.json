@@ -1,0 +1,224 @@
+{
+  "communities": {
+    "0": [
+      "argparse",
+      "logging",
+      "pathlib",
+      "random",
+      "scripts_benchmark",
+      "scripts_benchmark_main",
+      "scripts_benchmark_rationale_1",
+      "scripts_export_onnx",
+      "scripts_export_onnx_main",
+      "scripts_export_onnx_rationale_1",
+      "scripts_infer_live",
+      "scripts_infer_live_main",
+      "scripts_infer_live_rationale_1",
+      "scripts_make_split",
+      "scripts_make_split_main",
+      "scripts_make_split_rationale_1",
+      "scripts_prelabel",
+      "scripts_prelabel_main",
+      "scripts_prelabel_rationale_1",
+      "shutil",
+      "sys",
+      "time",
+      "yaml"
+    ],
+    "1": [
+      "cv2",
+      "ndarray",
+      "numpy",
+      "path",
+      "scripts_extract_frames",
+      "scripts_extract_frames_dhash",
+      "scripts_extract_frames_main",
+      "scripts_extract_frames_process_video",
+      "scripts_extract_frames_rationale_1"
+    ],
+    "2": [
+      "datetime",
+      "re",
+      "scripts_steps",
+      "scripts_steps_current",
+      "scripts_steps_main",
+      "scripts_steps_rationale_1",
+      "scripts_steps_render",
+      "scripts_steps_sync_progress"
+    ],
+    "3": [
+      "steps",
+      "steps_project",
+      "steps_steps",
+      "steps_steps_id",
+      "steps_steps_note",
+      "steps_steps_status",
+      "steps_steps_title",
+      "steps_steps_where"
+    ],
+    "4": [
+      "agents",
+      "agents_agents_md_read_this_first",
+      "agents_conventions",
+      "agents_hard_rules",
+      "agents_orientation_order_do_this_before_anything_else",
+      "agents_project",
+      "agents_resuming_work"
+    ],
+    "5": [
+      "readme",
+      "readme_anyscan",
+      "readme_handing_off_to_an_ai_agent",
+      "readme_rules_that_protect_the_results",
+      "readme_setup",
+      "readme_steps_details_in_steps_yaml",
+      "readme_where_am_i"
+    ],
+    "6": [
+      "docs_context_00_user_profile_and_goal",
+      "docs_context_00_user_profile_and_goal_goal",
+      "docs_context_00_user_profile_and_goal_the_project_anyscan",
+      "docs_context_00_user_profile_and_goal_user_preferences",
+      "docs_context_00_user_profile_and_goal_user_profile_and_goal_context_for_any_ai_agent",
+      "docs_context_00_user_profile_and_goal_who_the_user_is"
+    ],
+    "7": [
+      "configs_classes",
+      "configs_classes_classes",
+      "configs_classes_classes_coco",
+      "configs_classes_classes_name",
+      "configs_classes_classes_prompts"
+    ],
+    "8": [
+      "progress",
+      "progress_decisions_see_docs_context_01_decisions_md_for_the_full_list",
+      "progress_log",
+      "progress_open_questions",
+      "progress_progress"
+    ],
+    "9": [
+      "docs_results",
+      "docs_results_failure_patterns",
+      "docs_results_limitations",
+      "docs_results_results_only_measured_values"
+    ],
+    "10": [
+      "docs_context_01_decisions",
+      "docs_context_01_decisions_caveat_on_the_project_s_value",
+      "docs_context_01_decisions_decisions_log"
+    ],
+    "11": [
+      "docs_context_02_conversation_history",
+      "docs_context_02_conversation_history_conversation_history_chronological_summary_of_everything_done_so_far",
+      "docs_context_02_conversation_history_current_state"
+    ],
+    "12": [
+      "docs_labeling_guideline",
+      "docs_labeling_guideline_annotation_time_experiment",
+      "docs_labeling_guideline_labeling_guideline_fill_in_before_labeling"
+    ],
+    "13": [
+      "docs_context_03_interview_notes",
+      "docs_context_03_interview_notes_interview_talking_points_derived_from_the_above_for_the_user_s_prep"
+    ]
+  },
+  "cohesion": {
+    "0": 0.20553359683794467,
+    "1": 0.3611111111111111,
+    "2": 0.4642857142857143,
+    "3": 0.25,
+    "4": 0.2857142857142857,
+    "5": 0.2857142857142857,
+    "6": 0.3333333333333333,
+    "7": 0.4,
+    "8": 0.4,
+    "9": 0.5,
+    "10": 0.6666666666666666,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666,
+    "13": 1.0
+  },
+  "gods": [
+    {
+      "id": "steps_steps",
+      "label": "steps",
+      "degree": 6
+    },
+    {
+      "id": "scripts_extract_frames_process_video",
+      "label": "process_video()",
+      "degree": 6
+    },
+    {
+      "id": "scripts_make_split_main",
+      "label": "main()",
+      "degree": 6
+    },
+    {
+      "id": "scripts_steps_main",
+      "label": "main()",
+      "degree": 6
+    },
+    {
+      "id": "agents_agents_md_read_this_first",
+      "label": "AGENTS.md - read this first",
+      "degree": 6
+    },
+    {
+      "id": "readme_anyscan",
+      "label": "AnyScan",
+      "degree": 6
+    },
+    {
+      "id": "scripts_infer_live_main",
+      "label": "main()",
+      "degree": 5
+    },
+    {
+      "id": "scripts_steps_sync_progress",
+      "label": "sync_progress()",
+      "degree": 5
+    },
+    {
+      "id": "docs_context_00_user_profile_and_goal_user_profile_and_goal_context_for_any_ai_agent",
+      "label": "User profile and goal (context for any AI agent)",
+      "degree": 5
+    },
+    {
+      "id": "configs_classes_classes",
+      "label": "classes",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "main()",
+      "target": "argparse",
+      "source_files": [
+        "scripts/extract_frames.py",
+        ""
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "note": "Bridges community 1 → community 0"
+    },
+    {
+      "source": "main()",
+      "target": "argparse",
+      "source_files": [
+        "scripts/steps.py",
+        ""
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "note": "Bridges community 2 → community 0"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `main()` connect `Community 2` to `Community 0`?",
+      "why": "High betweenness centrality (0.008) - this node is a cross-community bridge."
+    }
+  ]
+}

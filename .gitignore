@@ -1,0 +1,10 @@
+data/
+runs/
+weights/
+.venv/
+__pycache__/
+*.pt
+*.onnx
+*.zip
+graphify-out/cache/
+.ipynb_checkpoints/

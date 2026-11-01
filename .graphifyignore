@@ -1,0 +1,13 @@
+data/
+runs/
+weights/
+graphify-out/cache/
+.venv/
+*.pt
+*.onnx
+*.mp4
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.zip
